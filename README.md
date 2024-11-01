@@ -1,4 +1,4 @@
-Table of Contents
+Table of Contents:
     Getting Started
     Requirements
     Installation
@@ -9,16 +9,16 @@ Table of Contents
     Contributing
     License
 
-Getting Started
+Getting Started:
     This project provides an audit tracking solution that monitors and logs various activities within an application, allowing easy tracking and reporting.
 
-Requirements
+Requirements:
     XAMPP - PHP and MySQL server
     Laravel - PHP framework
     Composer - Dependency management
     Blade - Templating engine used with Laravel
 
-Installation
+Installation:
     Clone the Repository: git clone <https://github.com/levi0419/security-tool.git> then cd AUDIT-SECURITY.
     Install Dependencies: Run composer install and (if needed) npm install.
     Setup Environment: Copy .env.example to .env with cp .env.example .env.
@@ -41,7 +41,7 @@ Run Migrations:
     Serve the Application: Start the Laravel development server using php artisan serve. Access your app at http://localhost:8000.
 
 
-Usage
+Usage:
     Logging Audits: The system logs predefined activities, viewable at the /audit route.
     Audit Reports: Users can filter and view reports by date, user, or activity type.
     Report Filtering: Filter audits by date, user, or event.
@@ -51,7 +51,7 @@ Usage
     Database Connection Error: Ensure .env has correct DB credentials and that MySQL in XAMPP is running.
     Missing Dependencies: Run composer install or npm install.
     Migration Issues: Confirm audit_system database exists.
-    
-Contributing
+
+Contributing:
 Feel free to fork this repository, create feature branches, and submit pull requests.
 
